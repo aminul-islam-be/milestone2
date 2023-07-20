@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+:root{
+    --primary-color: rgba(255, 66, 165, 1);
+}
+.primary-color{
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+.black-color{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+.h-nav{
+    height: 20px;
+}
+.car-height{
+    height: 60px;
+    margin-top: 10px;
+    list-style: none;
+}
+.car-height img{
+    height: 100%;
+    border-radius: 15px;
+}
+
+.flex-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.nav-step1{
+    margin-right: 100px;
+}
+.ul-li-flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul-li-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul-li-flex>li{
+    list-style: none;
+    padding: 0 20px;
+}
+.li-div-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+li>div{
+    height: 20px;
+    padding: 12px;
+}
+div>img{
+    height: 100%;
+}
+.img-manus{
+    height: 20px;
+}
+.img-height{
+    height: 100%;
+}
+.sec-flex{
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(140, 87, 238, 0.05), rgba(241, 68, 174, 0.05);
+}
+.control-img{
+    height: 350px;
+}
+.control-img>img{
+    height: 100%;
+}
+.text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 800;
+}
+.size{
+    font-size: 40px;
+}
+.Bolded{
+    font-size: 45px;
+    font-weight: 600;
+}
+.btn{
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    margin-right: 16px;
+}
+.btn1{
+    background-color: #F948B2;
+}
+.btn2{
+    background-color: rgba(78, 197, 247, 1);
+}
+.area2{
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+  
+}
+.left-aling{
+    text-align: right;
+    height: 330px;
+}    
+.div-color{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 20px;
+    width: 50%;
+}
+
+.left-aling>img{
+    height: 70%;
+}
+.Color-texts{
+    font-size:24px;
+    font-weight: 600;
+    color: #534C64;
+}
+.marg-center{
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    padding: 24px;
+    font-size: 16px;
+}
+.Funny-size{
+    font-size: 26px;
+}
+.step4{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+.step4-a{
+    height: 160px;
+    margin-top: 16px;
+}
+.step4-a>img{
+    height: 100%;
+}
+.p-siz{
+    width: 140px;
+    font-size: 8px;
+}
+.gamer-site{
+    height: 220px;
+    width: 260px;
+    z-index: 5;
+}
+.sutto-pic{
+    
+    z-index: 10;
+    position: relative;
+    bottom: 80px;
+    left:150px ;
+}
+.step5{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.gamer-site>img{
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+}
+.sutto-pic>img{
+    width: 40%;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px gray;
+}
+.step6{
+    display: grid;
+    grid-template-columns: repeat(5, 140px);
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.step-bottom-margin{
+    margin-bottom: 40px;
+}
+.step6 img{
+    width: 20%;
+}
+.step6-div-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.gap-dilam{
+    margin-left: 12px;
+}
+.modify{
+    width: max-content;
+    margin: auto;
+    position: relative;
+    left: 8%;
+}
+.krp:hover{
+    border: 4px solid;
+    border-image: linear-gradient(180deg, purple, violet, red);
+    border-image-slice: 1;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 14px;
+    width: 120px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.list-styl li{
+    list-style: none;
+    margin-left: 26px;
+    font-size: 10px;
+    color: white;
+}
+.list-styl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icn{
+    width: max-content;
+    margin: auto;
+}
+.fot-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fot-flex li{
+    list-style: none;
+    color: white;
+    margin-left: 26px;
+    margin-bottom: 120px;
+    font-size: 10px;
+}
+.foter-reserve{
+    width: max-content;
+    margin: auto;
+}
+.step7-f{
+    background-color: black;
+}
+.krn1{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .flex-nav{
+        flex-direction: column;
+    }
+    .ul-li-flex{
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .h-nav{
+        height: auto;
+    }
+    .ul-li-flex1{
+        margin: auto;
+        padding-left: 85px;
+    }
+    .pad>li{
+        margin-bottom: 1rem;
+    }
+    .sec-flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .area2{
+        flex-direction: column;
+        background-image: rgb(246, 245, 248); 
+    
+    }
+    .left-aling{
+        text-align: center;
+    }
+    .top{
+        margin-top: 80px;
+    }
+    .div-color{
+        width: auto;
+        position: relative;
+        bottom: 120px;
+    }
+    .marg-center{
+        position: relative;
+        bottom: 120px;
+    }
+    .step4{
+        flex-direction: column;
+    }
+    .step4-a{
+        position: relative;
+        top: 100px;
+    }
+    .step4-a>img{
+        height: 100%;
+    }
+   .step5{
+    width: 120px;
+    margin: 20px;
+    flex-direction: column-reverse;
+    position: relative;
+    top:400px;
+    left: 100px;
+   }
+   .sutto-pic>img{
+    width: 30%;
+   }
+   .sutto-pic{
+    left: 100px;
+    bottom: 60px;
+   }
+   .gamer-site>img{
+    width: 60%;
+    margin: 0 auto;
+}
+.gamer-site{
+    width: 280px;
+    text-align: center;
+}
+.size{
+    font-size: 20px;
+}
+.step6{
+    width: 320px;
+    grid-template-columns: repeat(3, 100px);
+position: relative;
+top: 400px;
+
+}
+.icon-marginC{
+
+}
+.step-bottom-margin{
+    visibility: hidden;
+
+}
+.cen{
+    position: relative;
+    
+}
+
+.mobile{
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+.step7-f{
+    background-color: white;
+}
+.krp{
+    visibility: hidden;
+}
+.left-mar{
+    margin-left: 10px ;
+}
+.krn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+.krn1 img{
+    width: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .flex-nav{
+        flex-direction: column;
+    }
+    .ul-li-flex{
+        flex-direction: column;
+        margin-top: 16px;
+    }
+    .h-nav{
+        height: auto;
+    }
+    .ul-li-flex1{
+        margin: auto;
+        padding-left: 85px;
+    }
+    .pad>li{
+        margin-bottom: 1rem;
+    }
+    .sec-flex{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .area2{
+        flex-direction: column;
+        background-image: rgb(246, 245, 248); 
+    
+    }
+    .left-aling{
+        text-align: center;
+    }
+    .top{
+        margin-top: 80px;
+    }
+    .div-color{
+        width: auto;
+        position: relative;
+        bottom: 120px;
+    }
+    .marg-center{
+        position: relative;
+        bottom: 120px;
+    }
+    .step4{
+        flex-direction: column;
+    }
+    .step4-a{
+        position: relative;
+        top: 100px;
+    }
+    .step4-a>img{
+        height: 100%;
+    }
+   .step5{
+    width: 120px;
+    margin: 20px;
+    flex-direction: column-reverse;
+    position: relative;
+    top:400px;
+    left: 100px;
+   }
+   .sutto-pic>img{
+    width: 30%;
+   }
+   .sutto-pic{
+    left: 100px;
+    bottom: 60px;
+   }
+   .gamer-site>img{
+    width: 60%;
+    margin: 0 auto;
+}
+.gamer-site{
+    width: 280px;
+    text-align: center;
+}
+.size{
+    font-size: 20px;
+}
+.step6{
+    width: 320px;
+    grid-template-columns: repeat(3, 100px);
+position: relative;
+top: 400px;
+
+}
+.icon-marginC{
+
+}
+.step-bottom-margin{
+    visibility: hidden;
+
+}
+.cen{
+    position: relative;
+    
+}
+
+.mobile{
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+.step7-f{
+    background-color: white;
+}
+.krp{
+    visibility: hidden;
+}
+.left-mar{
+    margin-left: 10px ;
+}
+.krn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+}
+.krn1 img{
+    width: 30px;
+}
+}
+
